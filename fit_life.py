@@ -27,9 +27,10 @@ bmi = round(user_weight / (user_height ** 2), 1)
 # Подсчет воды: вес * 30 мл
 # Рассчитай water_needed
 # Рассчитать норму воды в миллилитрах
-water_ml = user_weight * 30
+ML = 30
+water_ml = round(user_weight * ML, 1)
 # Перевести в литры
-water_l = round(water_ml / 1000, 1)
+water_l = water_ml / 1000
 
 # 4. Вывод красивого результата
 # Используй f-строку, чтобы вывести приветствие, например: "Привет, Иван!"
