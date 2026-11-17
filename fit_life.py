@@ -1,6 +1,6 @@
 # Проект FitLife - MVP версия 1.0
-millilitre = 30
-litre = 1000
+VALUE_ML = 30
+VALUE_L = 1000
 
 # 1. Знакомство
 # Спроси у пользователя имя и сохрани в переменную user_name
@@ -28,9 +28,9 @@ bmi = round(user_weight / (user_height ** 2), 1)
 # Подсчет воды: вес * 30 мл
 # Рассчитай water_needed
 # Рассчитать норму воды в миллилитрах
-water_ml = round(user_weight * millilitre, 1)
+water_ml = round(user_weight * VALUE_ML, 1)
 # Перевести в литры
-water_l = water_ml / litre
+water_l = water_ml / VALUE_L
 
 # 4. Вывод красивого результата
 # Используй f-строку, чтобы вывести приветствие, например: "Привет, Иван!"
